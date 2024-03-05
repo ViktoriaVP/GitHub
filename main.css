@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #000;
+}
+
+@font-face {
+  font-family: '"Verdana"' sans-serif;
+  src: url('fonts/Verdana.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.section {
+  padding: 155px 0;
+  background-color: #c8fff2;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1185px;
+
+}
+
+.hero__img {
+  max-width: 230px;
+  margin-right:80px;
+}
+
+.wrap {
+  display: flex;
+}
+
+.hero__title {
+  margin: 0;
+  font-family: "Verdana";
+  font-size: 40px;
+}
