@@ -8,29 +8,33 @@ body {
 }
 
 @font-face {
-  font-family: '"Verdana"' sans-serif;
-  src: url('fonts/Verdana.woff2') format('woff2');
+  font-family: "Verdana";
+  src: url("fonts/Verdana.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
-  font-family: '"Verdana"' sans-serif;
-  src: url('fonts/Verdana-Bold.woff2') format('woff2');
+  font-family: "Verdana";
+  src: url("fonts/Verdana-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
-
 .section {
   padding: 155px 0;
   background-color: #c8fff2;
+}
+.section--cards {
+  background: #a0ffe8;
 }
 
 .container {
   margin: 0 auto;
   max-width: 1185px;
   padding: 0 15px;
+}
 
+.wrap {
+  display: flex;
 }
 
 .hero__img {
@@ -38,11 +42,6 @@ body {
   margin-right: 80px;
   padding-top: 250px;
 }
-
-.wrap {
-  display: flex;
-}
-
 .hero__title {
   margin: 0;
   font-family: "Verdana";
@@ -50,17 +49,12 @@ body {
   font-size: 40px;
   font-weight: 700;
 }
-
 .hero__text {
   margin: 0;
   font-family: "Verdana";
   margin-bottom: 50px;
   font-weight: 400;
   font-size: 32px;
-}
-
-.section--cards {
-  background: #a0ffe8;
 }
 
 .about__cards__card {
@@ -83,7 +77,6 @@ body {
   font-size: 40px;
   text-align: center;
 }
-
 
 .about__cards__title {
   margin: 0;
@@ -108,4 +101,4 @@ body {
   font-weight: 400;
   font-size: 24px;
   text-align: center;
-}
+}/*# sourceMappingURL=main.css.map */

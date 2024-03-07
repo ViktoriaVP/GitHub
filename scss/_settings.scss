@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: $text-color;
+}
+
+@font-face {
+  font-family: "Verdana";
+  src: url('fonts/Verdana.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Verdana";
+  src: url('fonts/Verdana-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.section {
+  padding: 155px 0;
+  background-color: #c8fff2;
+
+  &--cards {
+    background: #a0ffe8;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1185px;
+  padding: 0 15px;
+}

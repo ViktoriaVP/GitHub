@@ -1,0 +1,26 @@
+.wrap {
+  display: flex;
+}
+.hero{
+
+ &__img {
+  max-width: 230px;
+  margin-right: 80px;
+  padding-top: 250px;
+}
+ &__title {
+margin: 0;
+font-family: "Verdana";
+padding-bottom: 150px;
+font-size: 40px;
+font-weight: 700;
+  }
+  
+  &__text {
+margin: 0;
+font-family: "Verdana";
+margin-bottom: 50px;
+font-weight: 400;  
+font-size: 32px;
+  } 
+ }
